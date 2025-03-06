@@ -16,7 +16,7 @@ function renderCartItems() {
         cartItem.classList.add('cart-item');
 
         cartItem.innerHTML = `
-            <img src="images/${item.name}.png" alt="${item.name}">
+            <img src="${item.name}.png" alt="${item.name}">
             <div class="cart-item-info">
                 <h3>${item.name}</h3>
                 <p>单价: ￥${item.price.toFixed(2)}</p>
