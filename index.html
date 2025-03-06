@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>非遗川剧糕点 - 线上销售</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header>
+        <div class="container">
+            <h1>非遗川剧糕点</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">首页</a></li>
+                    <li><a href="#menu">菜单</a></li>
+                    <li><a href="#about">关于我们</a></li>
+                    <li><a href="#contact">联系我们</a></li>
+                    <li><a href="./cart.html" class="cart-btn" >购物车 (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 首页 Banner -->
+    <section id="home" class="banner">
+        <div class="container">
+            <h2>欢迎来到非遗川剧糕点</h2>
+            <p>品尝独特的川剧脸谱样式糕点，感受非遗文化的魅力。</p>
+            <a href="#menu" class="btn">查看菜单</a>
+        </div>
+    </section>
+
+    <!-- 菜单部分 -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <h2>菜单</h2>
+            <div class="menu-grid">
+                <!-- 产品 1 -->
+                <div class="menu-item">
+                    <img src="images/川剧脸谱糕点1.png" alt="川剧脸谱糕点1">
+                    <h3>川剧脸谱糕点1</h3>
+                    <p>经典川剧脸谱样式，口感酥脆，甜而不腻。</p>
+                    <p class="price">￥15.00</p>
+                    <button onclick="addToCart('川剧脸谱糕点1', 15)">加入购物车</button>
+                </div>
+                <!-- 产品 2 -->
+                <div class="menu-item">
+                    <img src="images/川剧脸谱糕点2.png" alt="川剧脸谱糕点2">
+                    <h3>川剧脸谱糕点2</h3>
+                    <p>传统工艺制作，口感细腻，回味无穷。</p>
+                    <p class="price">￥18.00</p>
+                    <button onclick="addToCart('川剧脸谱糕点2', 18)">加入购物车</button>
+                </div>
+                <!-- 产品 3 -->
+                <div class="menu-item">
+                    <img src="images/川剧脸谱糕点3.png" alt="川剧脸谱糕点3">
+                    <h3>川剧脸谱糕点3</h3>
+                    <p>独特造型，外酥内软，甜度适中。</p>
+                    <p class="price">￥20.00</p>
+                    <button onclick="addToCart('川剧脸谱糕点3', 20)">加入购物车</button>
+                </div>
+                <!-- 产品 4 -->
+                <div class="menu-item">
+                    <img src="images/川剧脸谱糕点4.png" alt="川剧脸谱糕点4">
+                    <h3>川剧脸谱糕点4</h3>
+                    <p>传统与现代结合，口感丰富，老少皆宜。</p>
+                    <p class="price">￥22.00</p>
+                    <button onclick="addToCart('川剧脸谱糕点4', 22)">加入购物车</button>
+                </div>
+                <!-- 产品 5 -->
+                <div class="menu-item">
+                    <img src="images/川剧脸谱糕点5.png" alt="川剧脸谱糕点5">
+                    <h3>川剧脸谱糕点5</h3>
+                    <p>精选原料，手工制作，健康美味。</p>
+                    <p class="price">￥25.00</p>
+                    <button onclick="addToCart('川剧脸谱糕点5', 25)">加入购物车</button>
+                </div>
+                <!-- 产品 6 -->
+                <div class="menu-item">
+                    <img src="images/川剧脸谱糕点6.png" alt="川剧脸谱糕点6">
+                    <h3>川剧脸谱糕点6</h3>
+                    <p>独特配方，入口即化，回味悠长。</p>
+                    <p class="price">￥28.00</p>
+                    <button onclick="addToCart('川剧脸谱糕点6', 28)">加入购物车</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我们 -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>关于我们</h2>
+            <p>我们致力于传承和推广非遗川剧文化，通过独特的糕点艺术，让更多人了解和喜爱川剧。</p>
+        </div>
+    </section>
+
+    <!-- 联系我们 -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>联系我们</h2>
+            <p>地址：四川省成都市XX街XX号</p>
+            <p>电话：123-456-7890</p>
+            <p>邮箱：info@chuanjicake.com</p>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 非遗川剧糕点. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

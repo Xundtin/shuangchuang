@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>购物车 - 非遗川剧糕点</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+SC:wght@300;400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- 顶部导航栏 -->
+    <header>
+        <div class="container">
+            <h1>非遗川剧糕点</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">首页</a></li>
+                    <li><a href="index.html#menu">菜单</a></li>
+                    <li><a href="index.html#about">关于我们</a></li>
+                    <li><a href="index.html#contact">联系我们</a></li>
+                    <li><a href="cart.html" class="cart-btn">购物车 (<span id="cart-count">0</span>)</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- 购物车内容 -->
+    <section id="cart" class="cart">
+        <div class="container">
+            <h2>购物车</h2>
+            <div id="cart-items" class="cart-items">
+                <!-- 购物车商品动态加载 -->
+            </div>
+            <div class="cart-summary">
+                <p>总价: <span id="total-price">￥0.00</span></p>
+                <button onclick="checkout()">去结算</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 非遗川剧糕点. 保留所有权利。</p>
+        </div>
+    </footer>
+
+    <script src="cart.js"></script>
+</body>
+</html>
