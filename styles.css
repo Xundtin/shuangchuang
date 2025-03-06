@@ -58,7 +58,7 @@ nav ul li a.cart-btn {
 
 /* Banner 部分 */
 .banner {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('images/图片1.png');
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('图片1.png');
     background-size: cover;
     background-position: center;
     color: #fff;
